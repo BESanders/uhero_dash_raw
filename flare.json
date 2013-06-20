@@ -1,0 +1,35 @@
+{
+ "name": "earnings by industry",
+ "children": [
+	{"name": "Construction & Mining", "jobs":29.49,"size":82541.2},
+	{"name": "Manufacturing", "jobs":13.3,"size":54713.46},
+	{"name": "Trade, Transportation & Utilities", "children": [
+		{"name": "    Retail Trade", "jobs":68.58,"size":35609.41},
+		{"name": "    Wholesale Trade", "jobs":17.69,"size":61437.87},
+		{"name": "    Transportation & Warehousing", "jobs":24.76,"size":56606.42},
+		{"name": "    Utilities", "jobs":3.53,"size":136004.53}
+	]},
+	{"name": "Information", "jobs":8.28,"size":77197.34},
+	{"name": "Financial Activities", "jobs":27,"size":66459.26},
+	{"name": "Professional and Business Services", "children": [
+		{"name": "    Professional, scientific, and technical services", "jobs":24.29,"size":77989.25},
+		{"name": "    Management of companies and enterprises", "jobs":7.43,"size":97526.51},
+		{"name": "    Administrative and waste management services", "jobs":44.65,"size":36860}
+	]},
+	{"name": "Education and Health Services", "children": [
+		{"name": "    Private Education Services", "jobs":14.82,"size":45943.99},
+		{"name": "    Heath care and social assistance", "jobs":61.88,"size":57890.9}
+	]},
+	{"name": "Leisure and Hospitality", "children": [
+		{"name": "    Arts, Entertainment, and Recreation", "jobs":11.2,"size":33810.8},
+		{"name": "    Accommodation and food services", "jobs":95.83,"size":36645.22}
+	]},	
+	{"name": "Other Services", "jobs":26.36,"size":46330.08},
+	{"name": "Government", "children": [
+		{"name": "    Federal", "jobs":34.9,"size":108800.63},
+		{"name": "    State & Local", "jobs":91.38,"size":60245.12}
+	]}
+ ]
+}
+
+

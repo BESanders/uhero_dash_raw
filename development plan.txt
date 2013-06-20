@@ -1,0 +1,82 @@
+Gov Research Spending
+----------------------------------------------
+1.) Create CSV of Top Level Spending
+
+2.) Change scale for X Axis
+- make linear
+- find max values
+- figure out date bit
+
+3.) Change Scale for Y Axis
+
+4.) Draw Path
+
+5.) Draw Area
+
+
+Student Spending
+-----------------------------------------------
+# 1.) Create 3 axes-
+# x - categorical axis
+# y - dollar scale 0 - $9000 (max of value range)
+# r - radius scale 0 - 9000 (sqrt)
+
+# 2.) Create CSV with data (no totals)
+
+# 3.) In design variables
+# -radius scale max
+# -x scale width
+# -y scale max
+
+# 4.) Create ticks and labels
+
+# 6.) plot points
+
+# 5.) Pick colors (green / gold in a series)
+# greens [#486135, #2C6E3E, #6D783E, #B5C8A0, #89AC6E]
+# gold [#B99F69, #D9955E, #E3AD65, #EFD299, #F3EBD9]
+# var color_list = ["#486135", "#2C6E3E", "#6D783E", "#B5C8A0", "#89AC6E", "#B99F69", "#D9955E", "#E3AD65", "#EFD299", "#F3EBD9"]
+
+# 7.) put in export code and button
+# <script type="text/javascript" src="jquery.js"></script>
+# <script type="text/javascript" src="jquery.svg.js"></script>
+# <script type="text/javascript">
+# function export_svg() {
+# 	$('svg').svg();
+# 	var xml = $('svg').svg('get').toSVG();
+# 	$('#svgexport').html(xml.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'));
+# }
+# </script>
+
+# <button onclick="export_svg();" />export</button>
+# <pre><div id="svgexport">export will go here</div></pre>
+
+#8.) horizontally separate Grad vs Undergrad
+
+
+GENERAL SETUP PROCESS
+linked files
+-d3
+-dat.gui
+-jquery.svg.js
+
+setup items
+-draw function
+-file read function
+-dat.gui object
+-dat.gui ranges
+-scales
+-height
+-width
+-margin
+-export function
+
+drawing setup
+-axes
+-ticks
+-labels
+-border
+
+templates
+- path samples
+- bar chart

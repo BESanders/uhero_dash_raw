@@ -1,0 +1,21 @@
+{"nodes":[
+{"name":"UHM Non-ORS"},
+{"name":"UHM ORS"},
+{"name":"UH Foundation"},
+{"name":"RCUH"},
+{"name":"Students"},
+{"name":"Visitors"},
+{"name":"State General Fund"},
+{"name":"Bookstore and Tuition"},
+{"name":"All Spending"}
+],
+"links":[
+{"source":6,"target":0,"value": 299 },
+{"source":7,"target":0,"value": 562 },
+{"source":0,"target":8,"value": 861 },
+{"source":1,"target":8,"value": 207},
+{"source":2,"target":8,"value": 26},
+{"source":3,"target":8,"value": 13},
+{"source":4,"target":8,"value": 324},
+{"source":5,"target":8,"value": 65}
+]}
